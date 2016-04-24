@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href="#/">Your Portfolios Directory</a>
+            <a class="navbar-brand" href="#/">The Portfolios Directory</a>
           </div>
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
             <ul class="nav navbar-nav">
