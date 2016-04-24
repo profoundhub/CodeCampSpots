@@ -1,9 +1,5 @@
 # Apache Configuration File
 
-# (!) Using `.htaccess` files slows down Apache, therefore, if you have access
-# to the main server config file (usually called `httpd.conf`), you should add
-# this logic there: http://httpd.apache.org/docs/current/howto/htaccess.html.
-
 # ##############################################################################
 # # CROSS-ORIGIN RESOURCE SHARING (CORS)                                       #
 # ##############################################################################
@@ -58,11 +54,6 @@
 # ------------------------------------------------------------------------------
 # | 404 error prevention for non-existing redirected folders                   |
 # ------------------------------------------------------------------------------
-
-# Prevent Apache from returning a 404 error for a rewrite if a directory
-# with the same name does not exist.
-# http://httpd.apache.org/docs/current/content-negotiation.html#multiviews
-# http://www.webmasterworld.com/apache/3808792.htm
 
 Options -MultiViews
 
@@ -531,12 +522,6 @@ FileETag None
 # ------------------------------------------------------------------------------
 # | Persistent connections                                                     |
 # ------------------------------------------------------------------------------
-
-# Allow multiple requests to be sent over the same TCP connection:
-# http://httpd.apache.org/docs/current/en/mod/core.html#keepalive.
-
-# Enable if you serve a lot of static content but, be aware of the
-# possible disadvantages!
 
 # <IfModule mod_headers.c>
 #    Header set Connection Keep-Alive
