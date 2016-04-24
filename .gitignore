@@ -24,7 +24,6 @@
 /db/ports_mysql.php
 ports_mysql.php
 settings*.php
-/db
 
 ######################
 # Logs and databases #
