@@ -15,7 +15,7 @@ angular.module("portfolioApp", ["ngAnimate", "ngAria", "ngCookies", "ngMessages"
   var c = b.get("portfolios");
   a.portfolios = c || [], a.$watch("portfolios", function() {
     b.set("portfolios", a.portfolios)
-  }, !0), a.addPortfolios = function() {
+  }, !0), a.addPortfolio = function() {
     a.portfolios.push(a.portfolio), a.portfolio = ""
   }, a.removePortfolio = function(b) {
     a.portfolios.splice(b, 1)
