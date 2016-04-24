@@ -45,7 +45,7 @@
     </div>
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> by Daniel & Justin</p>
+        <p><span class="glyphicon glyphicon-heart"></span> by Daniel &amp; Justin</p>
       </div>
     </div>
     <script>
@@ -56,7 +56,7 @@
              ga('create', 'UA-47462683-1');
              ga('send', 'pageview');
     </script>
-    <script src="scripts/vendor.b148f749.js"></script>
-    <script src="scripts/scripts.689bbc0a.js"></script>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>

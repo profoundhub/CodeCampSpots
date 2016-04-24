@@ -1,10 +1,10 @@
 "use strict";
 angular.module("portfolioApp", ["ngAnimate", "ngAria", "ngCookies", "ngMessages", "ngResource", "ngRoute", "ngSanitize", "ngTouch", "ui.sortable"]).config(["$routeProvider", function(a) {
   a.when("/", {
-    templateUrl: "views/main.html",
+    templateUrl: "views/main.php",
     controller: "MainCtrl"
   }).when("/about", {
-    templateUrl: "views/about.html",
+    templateUrl: "views/about.php",
     controller: "AboutCtrl"
   }).otherwise({
     redirectTo: "/"
