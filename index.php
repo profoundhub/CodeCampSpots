@@ -57,14 +57,20 @@
              ga('create', 'UA-47462683-1');
              ga('send', 'pageview');
     </script>
+    <?php /*
+    */ ?>
     <script src="scripts/vendor.js"></script>
     <script src="scripts/scripts.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <?php /*
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    */ ?>
     <!-- Latest compiled and minified JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified Angular JavaScript -->
+    <?php /*
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    */ ?>
     <script src="//ajax.googleapis.com/ajax/libs/angular_material/1.0.7/angular-material.min.js"></script>
 
   </body>
