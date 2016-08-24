@@ -11,7 +11,8 @@ angular.module("portfolioApp", ["ngAnimate", "ngAria", "ngCookies", "ngMessages"
   }).otherwise({
     redirectTo: "/"
   })
-}]), angular.module("portfolioApp").controller("MainCtrl", ["$scope", "localStorageService", function(a, b) {
+}]), angular.module("portfolioApp")
+  .controller("MainCtrl", ["$scope", "localStorageService", function(a, b) {
   var c = b.get("portfolios");
   a.portfolios = c || [], a.$watch("portfolios", function() {
     b.set("portfolios", a.portfolios)
